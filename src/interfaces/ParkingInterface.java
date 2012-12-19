@@ -1,7 +1,7 @@
-package pigdeer.parking.interfaces;
+package interfaces;
 
-import pigdeer.parking.base.Car;
-import pigdeer.parking.base.Ticket;
+import entity.Car;
+import entity.Ticket;
 
 import java.util.Map;
 

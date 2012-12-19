@@ -1,4 +1,4 @@
-package pigdeer.parking.base;
+package entity;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,8 +1,8 @@
-package pigdeer.parking.base;
+package entity;
 
-import pigdeer.parking.errors.*;
-import pigdeer.parking.interfaces.ParkingInterface;
-import pigdeer.parking.utils.PrintHelper;
+import exception.*;
+import interfaces.*;
+import utils.*;
 
 import java.util.HashMap;
 import java.util.Map;
