@@ -1,3 +1,7 @@
+package entity;
+
+import entity.Car;
+
 import java.util.HashMap;
 import java.util.Map;
 

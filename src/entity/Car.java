@@ -1,3 +1,5 @@
+package entity;
+
 /**
  * Created with IntelliJ IDEA.
  * User: 51ibm

@@ -1,3 +1,5 @@
+import entity.Car;
+import entity.ParkingBoy;
 import org.junit.Assert;
 import org.junit.Test;
 
