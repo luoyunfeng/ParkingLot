@@ -1,6 +1,6 @@
-package pigdeer.parking.interfaces;
+package interfaces;
 
-import pigdeer.parking.base.ParkLot;
+import entity.ParkLot;
 
 import java.util.List;
 

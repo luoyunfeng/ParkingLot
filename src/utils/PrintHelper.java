@@ -1,4 +1,4 @@
-package pigdeer.parking.utils;
+package utils;
 
 import java.util.Map;
 

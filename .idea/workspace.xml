@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf7eb736-b5bf-436e-93ac-39bb4efe32b8" name="Default" comment="" />
+    <list default="true" id="bf7eb736-b5bf-436e-93ac-39bb4efe32b8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/NoCarForTicketException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/NoCarInBoyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/NoCarInLotException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/NoSpaceForCarException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/NoSpaceInBoyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/NoSpaceInLotException.java" />
+      <change type="DELETED" beforePath="C:\Users\LYF\git\src\exception\NoCarException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\LYF\git\src\exception\NoPlaceException.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/ParkManager.java" afterPath="$PROJECT_DIR$/src/entity/ParkManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Parking.java" afterPath="$PROJECT_DIR$/src/entity/Parking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/ParkingBoy.java" afterPath="$PROJECT_DIR$/src/entity/ParkingBoy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces/ParkLotChooser.java" afterPath="$PROJECT_DIR$/src/interfaces/ParkLotChooser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/PrintHelper.java" afterPath="$PROJECT_DIR$/src/utils/PrintHelper.java" />
+    </list>
     <ignored path="Parkplace.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,7 +72,98 @@
     <favorites_list name="Parkplace" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ParkingBoy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/ParkingBoy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="-35.72">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkLot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/ParkLot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#440#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/PrintHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="16" selection-start="452" selection-end="452" vertical-scroll-proportion="0.25937033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/ParkManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="31" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/ParkManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="83" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ticket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Ticket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="89" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoCarInLotException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exception/NoCarInLotException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="32" selection-start="189" selection-end="208" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parking.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Parking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -70,17 +176,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ParkedCar.java" />
-        <option value="$PROJECT_DIR$/src/Car.java" />
-        <option value="$PROJECT_DIR$/Test/parkPlaceTest.java" />
-        <option value="$PROJECT_DIR$/src/ParkPlace.java" />
-        <option value="$PROJECT_DIR$/src/ParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/entity/Car.java" />
         <option value="$PROJECT_DIR$/src/Ticket.java" />
         <option value="$PROJECT_DIR$/src/src/entity/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/interfaces/ParkingInterface.java" />
         <option value="$PROJECT_DIR$/src/entity/Ticket.java" />
         <option value="$PROJECT_DIR$/src/entity/ParkLot.java" />
+        <option value="$PROJECT_DIR$/src/exception/NoCarForTicketException.java" />
+        <option value="$PROJECT_DIR$/src/exception/NoCarInBoyException.java" />
+        <option value="$PROJECT_DIR$/src/exception/NoCarInLotException.java" />
+        <option value="$PROJECT_DIR$/src/exception/NoSpaceForCarException.java" />
+        <option value="$PROJECT_DIR$/src/exception/NoSpaceInBoyException.java" />
+        <option value="$PROJECT_DIR$/src/exception/NoSpaceInLotException.java" />
+        <option value="$PROJECT_DIR$/src/utils/PrintHelper.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/ParkLotChooser.java" />
+        <option value="$PROJECT_DIR$/src/entity/ParkingBoy.java" />
+        <option value="$PROJECT_DIR$/src/entity/ParkManager.java" />
+        <option value="$PROJECT_DIR$/src/entity/Parking.java" />
       </list>
     </option>
   </component>
@@ -157,6 +268,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +574,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,71 +696,125 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/entity/ParkingBoy.java">
+    <entry file="file://$PROJECT_DIR$/src/exception/NoSpaceInLotException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="101" selection-end="101" vertical-scroll-proportion="0.1380814" />
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/parkPlaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/exception/NoSpaceForCarException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="4" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.502907" />
+        <state line="9" column="35" selection-start="189" selection-end="211" vertical-scroll-proportion="0.24854651">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/ParkLot.java">
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ParkLotChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="0.36953" />
+        <state line="2" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.05523256">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://E:/研一上/工程实践/Parking-master/Parking.iml">
+    <entry file="file://$PROJECT_DIR$/src/exception/NoCarInLotException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="9" column="32" selection-start="189" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parking.iml">
+    <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/ParkBoy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="752" selection-end="752" vertical-scroll-proportion="0.5523256" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="188" selection-end="188" vertical-scroll-proportion="0.24854651" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Parking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="96" column="27" selection-start="1083" selection-end="2663" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Ticket.java">
+    <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/ParkLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+        <state line="12" column="79" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/ParkingInterface.java">
+    <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/ParkManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.08284884">
+        <state line="13" column="31" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/ParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="-35.72">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/ParkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="83" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="94" selection-start="182" selection-end="182" vertical-scroll-proportion="0.19331396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/研一上/工程实践/Parking-master/src/pigdeer/parking/base/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="102" selection-start="83" selection-end="83" vertical-scroll-proportion="0.11046512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="89" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Parking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/ParkLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.99418604">
+        <state line="16" column="13" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#440#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/entity/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.028148148">
+        <state line="9" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/PrintHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="452" selection-end="452" vertical-scroll-proportion="0.25937033">
           <folding />
         </state>
       </provider>

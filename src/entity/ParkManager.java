@@ -1,42 +1,43 @@
-package pigdeer.parking.base;
+package entity;
 
-import pigdeer.parking.errors.NoCarForTicketException;
-import pigdeer.parking.errors.NoCarInBoyException;
-import pigdeer.parking.errors.NoSpaceForCarException;
-import pigdeer.parking.errors.NoSpaceInBoyException;
-import pigdeer.parking.interfaces.ParkLotChooser;
-import pigdeer.parking.utils.PrintHelper;
+import exception.NoCarForTicketException;
+import exception.NoCarInBoyException;
+import exception.NoSpaceForCarException;
+import exception.NoSpaceInBoyException;
+import interfaces.ParkLotChooser;
+import utils.PrintHelper;
+
 
 import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Zhutao
+ * User: LuoYunfeng
  * Date: 12-12-17
  * Time: 下午12:23
  * To change this template use File | Settings | File Templates.
  */
-public class ParkManager extends ParkBoy{
+public class ParkManager extends ParkingBoy{
 
-    private List<ParkBoy> parkBoys;
+    private List<ParkingBoy> parkBoys;
 
-    public ParkManager(ParkLotChooser parkLotChooser, List<ParkLot> parkLots, String number, List<ParkBoy> parkBoys) {
+    public ParkManager(ParkLotChooser parkLotChooser, List<ParkLot> parkLots, String number, List<ParkingBoy> parkBoys) {
         super(parkLotChooser, parkLots, number);
         this.setParkBoys(parkBoys);
     }
 
-    public List<ParkBoy> getParkBoys() {
+    public List<ParkingBoy> getParkBoys() {
         return parkBoys;
     }
 
-    public void setParkBoys(List<ParkBoy> parkBoys) {
+    public void setParkBoys(List<ParkingBoy> parkBoys) {
         this.parkBoys = parkBoys;
     }
 
     @Override
-    public Ticket push(Car car) throws NoSpaceForCarException{
+    public Ticket push(Car car) throws NoSpaceForCarException {
         Ticket ticket = null;
-        for(ParkBoy pb : this.getParkBoys()){
+        for(ParkingBoy pb : this.getParkBoys()){
             try{
                 ticket = pb.push(car);
                 return ticket;
@@ -50,9 +51,9 @@ public class ParkManager extends ParkBoy{
     }
 
     @Override
-    public Car pull(Ticket ticket) throws NoCarForTicketException{
+    public Car pull(Ticket ticket) throws NoCarForTicketException {
         Car car = null;
-        for(ParkBoy pb : this.getParkBoys()){
+        for(ParkingBoy pb : this.getParkBoys()){
             try{
                 car = pb.pull(ticket);
                 return car;
@@ -74,8 +75,8 @@ public class ParkManager extends ParkBoy{
         String message =super.printInfoWithTabsNoTotal(tabs);
         int space = super.getSpace();
         int empty = super.getEmpty();
-        for(ParkBoy pb : this.getParkBoys()){
-            message += PrintHelper.getParkBoyLabel(pb.getNumber(),tabs);
+        for(ParkingBoy pb : this.getParkBoys()){
+            message += PrintHelper.getParkBoyLabel(pb.getNumber(), tabs);
             message += pb.printInfoWithTabs(tabs+1);
             space += pb.getSpace();
             empty += pb.getEmpty();
